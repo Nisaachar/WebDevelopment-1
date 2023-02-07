@@ -1,0 +1,50 @@
+h1, h3{
+    margin: auto;
+    padding: 2em;
+    padding-top: 9vw;
+    text-align: center;
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    margin: auto;
+    margin-left: -2vw;
+    padding: 1.5em;
+    text-align: center;
+    align-content: center;
+    word-spacing: 2vw;
+    background-image: linear-gradient(to right, rgba(152, 255, 123, 1), rgba(0,255,0,1), rgba(25, 125, 30, 1));
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+    font-size: 1.2vw;
+    letter-spacing: 0.4vw;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+#frontImage{
+    height: 45vw;
+}
+
+.video-bg{
+    height: 55vw;
+    width: 100%;
+}
+
+.floatSec{
+    float: left;
+    width: 100vw;
+    padding: 1vw;
+    overflow: auto;
+    display: flex;
+}
+
+
