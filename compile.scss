@@ -1,0 +1,7 @@
+// To randomly generate the colour of the button. 
+
+.buttonR{
+  background-color: rgb(random(255),random(255),random(255));               
+  padding: 7px 20px;
+  border-radius: 3px;
+}
