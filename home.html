@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Razer Gaming | For gamers. By Gamers.</title>
 </head>
 <body>
@@ -14,38 +15,46 @@
             <a href="signup.html">Signup</a>
             <a href="https://www.razer.com/store">Store</a>
         </nav>
-        <h1>Razer. For Gamers. By Gamers.</h1>
+        <h1><span class="headingGrad">Razer</span>. For Gamers. By Gamers.</h1>
         <video loop autoplay muted class="video-bg" preload="auto" src="razerMouse.mp4"></video>
     </header>
 
     <main>
         <section class="floatSec">
             <div>
-                <h4>The Razer Viper</h4>
+                <h4>The Razer <span class="headingGrad">Viper</span></h4>
                 <p>
-                    Your dream mouse has just been surpassed. For those who dare to want it all, arm yourself with a masterpiece that outclasses the competition in weight, design, and performance. Introducing the Razer Viper Mini Signature Edition—the best mouse.
+                    Your dream mouse has just been surpassed. For those who dare to want it all, arm yourself with a masterpiece that outclasses the <span id="dots">...</span><span id="more">competition in weight, design, and performance. Introducing the Razer Viper Mini Signature Edition—the best mouse. <br><br> <a id = "right" href="https://www.razer.com/store">Buy Here >></a></span>
                 </p>
-                <a id = "right" href="https://www.razer.com/store">Buy Here >></a>
+               
+                <button onclick="readMore()" id="myBtn">Read more</button>
+                <!-- <a id = "right" href="https://www.razer.com/store">Buy Here >></a> -->
+                
             </div>
             <div>
-                <h4>Mechanical Keyboard</h4>
+                <h4>Mechanical <span class="headingGrad">Keyboard</span></h4>
                 <p>
-                    From multi-award winning Razer™ Mechanical Switches designed specifically for gaming to a mecha-membrane hybrid, discover the gaming keyboard for you—equipped with speed, precision and your preferred typing experience.
+                    From multi-award winning Razer™ Mechanical Switches designed specifically for gaming to a mecha-membrane hybrid, discover the gaming<span id="dots2">...</span><span id="more2"> keyboard for you—equipped with speed, precision and your preferred typing experience. <br><br> <a id = "right" href="https://www.razer.com/store">Buy Here >></a></span>
                 </p>
-                <a href="https://www.razer.com/store">Buy Here >></a>
+                <button onclick="readMore2()" id="myBtn2">Read more</button>
+                <!-- <button onclick="myFunction2()" id="myBtn2">Read more</button> -->
+                <!-- <a href="https://www.razer.com/store">Buy Here >></a> -->
             </div>
             <div>
-                <h4>Razer Raptor 1440P </h4>
+                <h4>Razer Raptor <span class="headingGrad">1440P</span></h4>
                 <p>
-                    Updated with the capability and clarity you need to game at your best, the new Razer Raptor is now faster than ever with up to 165Hz refresh rate and new THX® Certified visual clarity.
+                    Updated with the capability and clarity you need to game at your best, the new Razer Raptor is now faster than ever<span id="dots3">...</span><span id="more3">with up to 165Hz refresh rate and new THX® Certified visual clarity. <br><br> <a id = "right" href="https://www.razer.com/store">Buy Here >></a></span>
                 </p>
-                <a href="https://www.razer.com/store">Buy Here >></a>
+                <!-- <button onclick="myFunction3()" id="myBtn3">Read more</button> -->
+                <button onclick="readMore3()" id="myBtn3">Read more</button>
+                <!-- <a href="https://www.razer.com/store">Buy Here >></a> -->
             </div>
         </section>
     </main>
     <footer>
         <div>
             Razer © 2023
+            <p> The clock is ticking!!! <span id="time"> </span></p>
         </div>
     </footer>
 </body>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="compile.css">
+    <script src="script.js"></script>
     <title>Signup</title>
 </head>
 <body>
@@ -16,30 +17,31 @@
             <a href="https://www.razer.com/store">Store</a>
         </nav>
         <h1>Razer. For Gamers. By Gamers.</h1>
-        <h3>Sign up now, it's free!</h3>
+        <h2 class = "headingSignup">Sign up now, it's <span class="headingGrad"> free! </span></h2>
     </header>
     <main>
-        <form action="" class="form">
-            <span>Name:   
-                <input type="text" required>
-            </span>
-            <span>Email:   
-                <input type="email" required>
-            </span>
-            <br>
-            <br>
-            <button class="buttonR">
-                Submit
-            </button>
-        </form>
+        <form name="myForm" action="#" onsubmit="return validateForm()" method="post" class="form" id="forBorder">
+            Name: <input type="text" name="fname" placeholder="Javascript Name Validation">
+            <br><br>
+            Email: <input type = "email" name="email" required>
+            <br><br>
+            <div>
+                <label for="psw">Password: </label>
+                <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <br><br>
+                <input type="submit" value="Submit" class="button">
+              </div>
+              <div>
+                Want to upload your profile picture? <a href="upload.html" style="color: green; text-decoration: none;">Press here</a>
+              </div>
+        </form> 
     </main>
-    <!-- randomly generating colors for buttons -->
     
     <footer>
         <div>
             Razer © 2023
+            <p> The clock is ticking!!! <span id="time"> </span></p>
         </div>
     </footer>
-    
 </body>
 </html>

@@ -1,0 +1,13 @@
+Total js features implemented: 6
+
+On home page:
+3 DOM manipulations as "Read more" button which will diplay more content once the button is pressed.
+
+On signup Page:
+1 form validation
+
+On upload.html page:
+Drag and drop feature implemented. The html page, after dropping the files, will display the name of the files. 
+
+On Footer:
+Showing current time. refreshing every 1000 miliseconds. 

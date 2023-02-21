@@ -21,7 +21,7 @@ nav{
     text-align: center;
     align-content: center;
     word-spacing: 2vw;
-    background-image: linear-gradient(to right, rgba(152, 255, 123, 1), rgba(0,255,0,1), rgba(25, 125, 30, 1));
+    background-image: linear-gradient(to right, rgba(152, 255, 123, 1), rgba(0,255,0,1), #197d1e);
     width: 100%;
     position: fixed;
     font-weight: bold;
@@ -46,7 +46,7 @@ nav>a{
 .floatSec{
     float: left;
     width: 95vw;
-    padding: 1vw;
+    padding: 0.7vw;
     overflow: auto;
     display: flex;
 }
@@ -71,13 +71,14 @@ section > img{
 .button{
     padding: 7px 20px;
     border-radius: 3px;
-    background-image: linear-gradient(to right, rgba(152, 255, 123, 1), rgba(0,255,0,1));
+    background-image: linear-gradient(to right, #98ff7b, #00ff00);
 }
 
 footer{
-    height: 200px;
+    height: 250px;
     margin-top: 300px;
     background-color: black;
+    float: bottom;
 }
 
 footer > div {
@@ -85,4 +86,89 @@ footer > div {
     text-align: center;
     margin-top: 150px;
     padding: 90px;
+}
+
+.headingSignup{
+    text-align: center;
+}
+
+form{
+    border: 0.15em solid green;
+    border-image: linear-gradient(to bottom right, #d1ffc5, #00ff00, #41ab46) 1;
+    margin: 5em 13em;
+}
+
+input{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+.headingGrad{
+    background-image: linear-gradient(to right, #7adf61, #00ff00, #0e5d12);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.headingGrad > a{
+    text-decoration: none;
+}
+
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+
+#myBtn{
+    padding: 0.5em;
+    background-color: transparent;
+    border: 1.8px solid;
+    border-image: linear-gradient(to bottom right, #d1ffc5, #00ff00, #41ab46) 1;
+    color: green; /* add a color for the text */
+}
+
+#myBtn2{
+    padding: 0.5em;
+    background-color: transparent;
+    border: 1.8px solid;
+    border-image: linear-gradient(to bottom right, #d1ffc5, #00ff00, #41ab46) 1;
+    color: green; /* add a color for the text */
+}
+
+#myBtn3{
+    padding: 0.5em;
+    background-color: transparent;
+    border: 1.8px solid;
+    border-image: linear-gradient(to bottom right, #d1ffc5, #00ff00, #41ab46) 1;
+    color: green; /* add a color for the text */
+}
+
+#drop_zone {
+    border: 0.25em solid green;
+    border-image: linear-gradient(to bottom right, #d1ffc5, #00ff00, #41ab46) 1;
+    width: 88%;
+    height: 20em;
+    margin: 1em 5em;
+    padding: 1em;
+    text-align: center;
+}
+
+#drop_zone > p{
+    padding: 8em;
+}
+
+#message{
+    display: none;
+    font-size: 1.5em;
+    margin-left: 3.3em;
+    background-image: linear-gradient(to right, #3c5835, #00ff00, #3c5835);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
 }
